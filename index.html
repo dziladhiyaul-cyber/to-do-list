@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="toDo">
+        <h1>My To Do List</h1>
+
+        <div class="row">
+          <input
+            type="text"
+            id="inputTask"
+            placeholder="tambah to do list lesgoww"
+          />
+
+          <button id="tombol">Tambah</button>
+        </div>
+
+        <div class="statistik">
+          <div>
+            <strong id="totalTasks">0</strong>
+            <span>total tugas</span>
+          </div>
+
+          <div>
+            <strong id="completedTasks">0</strong>
+            <span>selesai</span>
+          </div>
+
+          <div>
+            <strong id="pendingTasks">0</strong>
+            <span>belum selesai</span>
+          </div>
+        </div>
+
+        <h2>daftar to do list</h2>
+
+        <ul id="listContainer"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
